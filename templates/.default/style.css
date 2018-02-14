@@ -1,0 +1,50 @@
+ul.menu-colons {
+    display: block;
+    float: left;
+    padding: 10px;
+    margin: 19px;
+    list-style-type: none;
+    border: 2px #222324;
+    width: 19%;
+}
+li.menu_title {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 13px 0px;
+}
+li.menu_title:nth-child(2n+2) {
+    clear:both;;
+}
+.child.cat_menu {
+    background: #f3f5f6;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: none;
+    margin: 10px;
+    border: 1px #bcbcbc;
+    z-index: 500;
+    left: 0;
+}
+ul.menu-colons.brands {
+    border-left: 1px solid;
+    border-color: darkgrey;
+    display: block;
+    float: left;
+    padding: 10px;
+    margin: 19px;
+}
+
+ul.topmenu__list > li {
+    list-style-type: none;
+    display: inline-block;
+    background-color: #e88b38;
+    padding: 15px;
+}
+ul.topmenu__list > li > a {
+    color: #fff;
+    text-decoration: none;
+}
+li:hover div.child {
+    display: inline-block;
+}
