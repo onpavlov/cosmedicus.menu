@@ -1,6 +1,6 @@
 <?
 
-namespace Alcodream\Migrations;
+namespace Custom\Migrations;
 use Bitrix\Main\Loader;
 
 class Migration

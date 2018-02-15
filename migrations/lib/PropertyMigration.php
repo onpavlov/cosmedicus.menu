@@ -1,6 +1,6 @@
 <?php
 
-namespace Alcodream\Migrations;
+namespace Custom\Migrations;
 
 /**
  * Миграция добавления свойств инфоблока

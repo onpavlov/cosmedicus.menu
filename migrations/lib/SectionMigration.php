@@ -1,6 +1,6 @@
 <?
 
-namespace Alcodream\Migrations;
+namespace Custom\Migrations;
 
 /**
  * Миграция добавления разделов инфоблока
