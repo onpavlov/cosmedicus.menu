@@ -13,7 +13,7 @@ li.menu_title {
     padding: 13px 0px;
 }
 li.menu_title:nth-child(2n+2) {
-    clear:both;;
+    clear:both;
 }
 .child.cat_menu {
     background: #f3f5f6;
@@ -38,7 +38,7 @@ ul.menu-colons.brands {
 ul.topmenu__list > li {
     list-style-type: none;
     display: inline-block;
-    background-color: #e88b38;
+    background-color: green;
     padding: 15px;
 }
 ul.topmenu__list > li > a {

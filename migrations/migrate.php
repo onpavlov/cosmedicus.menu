@@ -87,6 +87,13 @@ if ($menuIblockId = $iblock->isExist()) {
             'CODE' => 'kosmetologiya',
             'NAME' => 'Косметология',
             'ACTIVE' => 'Y'
+        ]),
+
+        new SectionMigration('Создание раздела "Еще"', [
+            'IBLOCK_ID' => $menuIblockId,
+            'CODE' => '',
+            'NAME' => 'Еще',
+            'ACTIVE' => 'Y'
         ])
     ];
 
