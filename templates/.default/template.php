@@ -19,7 +19,7 @@ $elements = $arResult['ELEMENTS'];
                             <? if (!empty($section['SUBSECTIONS'])): ?>
                                 <div class="child cat_menu">
                                     <? foreach ($section['SUBSECTIONS'] as $columnCode => $subsection):
-                                        if ($section['ELEMENT_CNT'] == 0 || $columnCode === 'brands') continue;
+                                        if (/*$section['ELEMENT_CNT'] == 0 || */$columnCode === 'brands') continue;
                                     ?>
                                         <ul class="menu-colons <?= $columnCode ?>">
                                             <? foreach ($subsection as $group):
